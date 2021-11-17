@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin: 0; padding: 0;  border-collapse: collapse;
+        }
+        h2 { font-family: "Arial"; margin-bottom: 10px;}
+        ul {list-style: none;}
+        body {font-family: "맑은 고딕", "돋움";
+                font-size: 12px; color: #444444;}
+        #login_box { border: 1px solid #bbbbbb;
+                    width: 220px; height: 120px;
+                    border-radius: 15px; margin: 10px 0 0 10px;
+                    padding: 10px 0 0 15px;}
+    #login_box input {width: 100px; height: 10px;}
+    .login_btn button {margin-left: 5px; padding: 12px;
+                            border-radius: 5px;}           
+    table {margin: 0; width: 210px;}
+        
+    table th, tr, td {border-collapse: collapse;}
+   
+    #bottom {width: 200px; margin: 10px auto 0; }
+    #bottom a {color: #444444; text-decoration: none;}
+    .b1 {width: 70px;}
+    .b2 {}
+    </style>
+</head>
+<body>
+    <form action="#">
+        <div id = login_box>
+            <h2>Member Login</h2>
+            <table>
+                
+
+                <tr>
+                        <td>ID</td>
+                        <td><input type="text"></td>
+                        <td class="login_btn" rowspan="2" colspan="2"><button>로그인</button></td>
+                </tr>
+
+                <tr>
+                        <td>Pass</td>
+                        <td><input type="text"></td>
+                        
+                </tr>
+
+                <table id="bottom">                
+                    <tr>
+                        <td class="b1"><a href="#">회원가입</a></td>
+                        <td class="b2"><a href="#">아이디/비밀번호 찾기</a></td>
+                </tr>
+            </table>
+
+            </table>
+        </div>
+    </form>
+</body>
+</html>
