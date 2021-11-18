@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float 속성을 이용해서 이미지를 수평방향으로 배치하기</title>
+    <style>
+        .items {border: 3px solid #000000; float: left; margin: 5px;
+                }
+        .items img {    /* float으로 이미지의 border를 넣을 경우*/
+            display: block; /*이미지 하단의 공백을 제거함 */
+             }
+        .clear { clear: both; /* both : left + right*/
+        }
+    </style>
+</head>
+<body>
+    <div class="items">
+        <img src="../../ADD/CH10/img/image1.jpg" alt="" width="120px">
+    </div>
+    
+    <div class="items">
+        <img src="../../ADD/CH10/img/image2.jpg"alt=""  width="120px">
+    </div>
+
+    <div class="items">
+        <img src="../../ADD/CH10/img/image3.jpg"alt="" width="120px">
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="items">
+        <img src="../../ADD/CH10/img/image4.jpg" alt="" width="120px">
+    </div>
+
+    <div class="items">
+        <img src="../../ADD/CH10/img/image5.jpg" alt="" width="120px">
+    </div>
+    
+    <div class="items">
+        <img src="../../ADD/CH10/img/image6.jpg" alt="" width="120px">
+    </div>
+    
+</body>
+</html>

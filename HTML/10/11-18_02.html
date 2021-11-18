@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입정보</title>
+
+    <style>
+
+        * {margin: 0; padding: 0;}
+
+        #wrapper {padding: 20px; width: 90%;}
+        .header_title {border-bottom: 3px solid #4e7a97; }
+        .header_title h4 {margin-bottom: 5px;}
+        .header_title .blue {color: #2572a8;}
+
+        #mem_form {width: 100%; font-size: 12px; }
+        ul {}
+        ul li {display: inline-block; padding: 10px 0; }
+        .red {color: red;}
+        .same { background-color: #3b6a86; padding:3px; border-radius: 2px;
+                color: #ffffff; font-size: 11px; width: 60px; height: auto;
+            border: 0;}
+
+        li input {width: 100px; margin-right: 2px;}
+        .radio {width: auto; margin: 0 5px;}
+        hr {width: 100%;}
+        .col1 {width: 150px; text-align: right;}
+        .col2 {margin-left: 15px;}
+        .col3 {margin-left: 5px;}
+        .col4 {color: gray;}
+        .year {width: 50px;}
+        .month {width: 30px;}
+        .day {width: 30px;}
+        .first {width: 30px;}
+        .second {width: 50px;}
+        .third {width: 50px;}
+        .checkbox {width: 10px;}
+        .jy_cancel {background-color: #ffffff; padding:3px; border-radius: 2px;
+                 font-size: 11px; width: 70px; height: auto;
+            border: 1px solid gray;}
+        .jy_compl {background-color: #ffffff; padding:3px; border-radius: 2px;
+                 font-size: 11px; width: 70px; height: auto;
+            border: 1px solid gray;}
+
+        .col2.center {margin: 0 auto;}
+        .join_btn {text-align: center; padding: 20px 0;}
+    </style>
+</head>
+<body>
+    <div id = wrapper>
+        <div class="header_title">
+            <h4><span class="blue">▶</span> 회원가입 정보 </h4>
+        </div>
+        <form action="#">
+            <ul id = "mem_form">
+
+                <li>
+                    <ul class="cols1">
+                        <li class="col1"><span class="red">*</span> 아이디</li>
+                        <li class="col2"><input type="text"></li>
+                        <li class="col3"><button class="same">중복확인</button></li>
+                        <li class="col4">영문, 숫자 조합으로 4~12자 이내</li>
+                    </ul>
+                </li>
+
+                <hr>
+
+                <li>
+                    <ul class="cols2">
+                        <li class="col1"><span class="red">*</span> 비밀번호</li>
+                        <li class="col2"><input type="text"></li>
+                        <li class="col4">영문, 숫자 조합으로 4~12자 이내</li>
+                    </ul>
+                </li>
+
+                <hr>
+
+                <li>
+                    <ul class="cols3">
+                        <li class="col1"><span class="red">*</span> 비밀번호 확인</li>
+                        <li class="col2"><input type="text"></li>
+                    </ul>
+                </li>
+
+                <hr>
+
+                <li>
+                    <ul class="cols4">
+                        <li class="col1"><span class="red">*</span> 이름</li>
+                        <li class="col2"><input type="text"></li>
+                    </ul>
+                </li>
+
+                <hr>
+
+                <li>
+                    <ul class="cols5">
+                        <li class="col1"><span class="red">*</span> 생년월일</li>
+                        <li class="col2"><input type="text" class="year">년</li>
+                        <li class="col2"><input type="text" class="month">월</li>
+                        <li class="col2"><input type="text" class="day">일</li>
+                        <li class="col3">
+                            <input type="radio" class="radio">음력&nbsp;
+                            <input type="radio" class="radio">양력
+                        </li>
+                    </ul>
+                </li>
+
+                <hr>
+
+                <li>
+                    <ul class="cols6">
+                        <li class="col1"><span class="red">*</span> 이메일</li>
+                        <li class="col2"><input type="text"></li>
+                    </ul>
+                </li>
+
+                <hr>
+
+                <li>
+                    <ul class="cols7">
+                        <li class="col1"><span class="red">*</span> 휴대전화</li>
+                        <li class="col2">
+                            <input type="text" class="first">-
+                            <input type="text" class="second">-
+                            <input type="text" class="third">
+                        </li>
+
+                    </ul>
+                </li>
+
+                <hr>
+
+                <li>
+                    <ul class="cols8">
+                        <li class="col1"><span class="red">*</span> 직업</li>
+                        <li class="col2">
+                            <select>
+                                <option>직업선택</option>
+                                <option>회사원</option>
+                                <option>주부</option>
+                                <option>학생</option>
+                                <option>교수</option>
+                                <option>기타</option>
+                            </select>
+                        </li>
+                    </ul>
+                </li>
+
+                <hr>
+
+
+                <li>
+                    <ul class="cols">
+                        <li class="col1"><span class="red">*</span> 영어수강목적</li>
+                        <li class="col2">
+                            <input type="checkbox" class="checkbox">시험대비&nbsp;&nbsp;
+                            <input type="checkbox" class="checkbox">업무상&nbsp;&nbsp;
+                            <input type="checkbox" class="checkbox">취미&nbsp;&nbsp;
+                            <input type="checkbox" class="checkbox">기타&nbsp;&nbsp;
+                        </li>
+                    </ul>
+                </li>
+
+                <hr>
+
+                
+                <div class="join_btn">
+                <input type="button" value="▶ 가입취소" class="jy_cancel">&nbsp;&nbsp;
+                <input type="button" value="▶ 가입완료" class="jy_compl">     
+            </div>                 
+            </ul>
+            
+        </form>
+        
+    </div>
+    
+</body>
+</html>

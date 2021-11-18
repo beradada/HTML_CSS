@@ -7,12 +7,19 @@
     <title>HTML & CSS 01</title>
 </head>
     <style>
-
-        #wrapper {margin: 0 auto; text-align: center; color:#383838; }
+        body {background-image: url(../img/koromi2.gif); background-size:100% 100%;
+            background-repeat: no-repeat;}
+        a:hover {color: plum; font-weight: bold;}
+        #wrapper {margin: 0 auto; text-align: center; color:plum; }
+        .box01_ul {text-align: center;width: 50%;}
         h2 {padding: 20px;}
-        ul {width: 800px; height: auto; margin: 0 auto 100px; padding: 60px 0 60px 0; border: 1px solid #000000;}
+        ul {width: 800px; height: auto; margin: 0 auto 100px; padding: 60px 0 60px 0; border: 5px solid rgb(245, 194, 245);
+            border-radius: 50px;}
         ul li {list-style: none; text-decoration: none;}
         ul li a {text-decoration: none; color:#383838; }
+        .back {position: fixed; }
+        .back img {width: 100px; height: auto; margin-left: 10px; }
+        
 
 
     </style>
@@ -20,19 +27,25 @@
 <body>
 
     <div id="wrapper">
+
+        <div class="back">
+            <a href="../index.html"><img src="../img/pink_arrows.png" alt=""></a>
+        </div>
+
         <h2> HTML 01 </h2>
-        <a href="../index.html" alt="">돌아가기</a>
+        
+       
         <ul class="box01_ul">
           
-      <li> <h3> <a href="../HTML/01/attribute.html" target="_blank" > 글자크기 태그 (h1~h6)</a> </h3></li>
-      <li> <h3> <a href="../HTML/01/no_br.html" target="_blank" > br 태그와 공백문자태그를 사용하지 않은 경우 </a></h3>
-      <li> <h3> <a href="../HTML/01/br.html" target="_blank" >br 태그와 공백문자태그를 사용하지 않은 경우, 특수문자</a></h3>
-      <li> <h3> <a href="../HTML/01/dl_dt_dd.html" target="_blank" > 계절별 야생화 </a></h3>
-      <li> <h3><a href="../HTML/01/link.html" target="_blank" > LINK </a></h3>
-      <li> <h3><a href="../HTML/01/ol_li.html" target="_blank" > ol_li </a></h3>
-      <li> <h3><a href="../HTML/01/p.html" target="_blank" > p 태그</a></h3>
-      <li> <h3><a href="../HTML/01/page1.htm" target="_blank" > page 1 </a></h3>
-      <li> <h3><a href="../HTML/01/ul_li.html" > ul_li </a></h3>
+      <li> <h3> <a href="../HTML/01/attribute.html" target="_self" > 글자크기 태그 (h1~h6)</a> </h3></li>
+      <li> <h3> <a href="../HTML/01/no_br.html" target="_self" > br 태그와 공백문자태그를 사용하지 않은 경우 </a></h3>
+      <li> <h3> <a href="../HTML/01/br.html" target="_self" >br 태그와 공백문자태그를 사용하지 않은 경우, 특수문자</a></h3>
+      <li> <h3> <a href="../HTML/01/dl_dt_dd.html" target="_self" > 계절별 야생화 </a></h3>
+      <li> <h3><a href="../HTML/01/link.html" target="_self" > LINK </a></h3>
+      <li> <h3><a href="../HTML/01/ol_li.html" target="_self" > ol_li </a></h3>
+      <li> <h3><a href="../HTML/01/p.html" target="_self" > p 태그</a></h3>
+      <li> <h3><a href="../HTML/01/page1.htm" target="_self" > page 1 </a></h3>
+      <li> <h3><a href="../HTML/01/ul_li.html" target="_self"> ul_li </a></h3>
       </ul>
       </div>
   

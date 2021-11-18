@@ -7,12 +7,19 @@
     <title>HTML & CSS 05</title>
 </head>
     <style>
-
-        #wrapper {margin: 0 auto; text-align: center; color:#383838; }
+        body {background-image: url(../img/koromi2.gif); background-size:100% 100%;
+            background-repeat: no-repeat;}
+        a:hover {color: plum; font-weight: bold;}
+        #wrapper {margin: 0 auto; text-align: center; color:plum; }
+        .box01_ul {text-align: center;width: 50%;}
         h2 {padding: 20px;}
-        ul {width: 800px; height: auto; margin: 0 auto 100px; padding: 60px 0 60px 0; border: 1px solid #000000;}
+        ul {width: 800px; height: auto; margin: 0 auto 100px; padding: 60px 0 60px 0; border: 5px solid rgb(245, 194, 245);
+            border-radius: 50px;}
         ul li {list-style: none; text-decoration: none;}
         ul li a {text-decoration: none; color:#383838; }
+        .back {position: fixed; }
+        .back img {width: 100px; height: auto; margin-left: 10px; }
+        
 
 
     </style>
@@ -20,20 +27,25 @@
 <body>
 
     <div id="wrapper">
+
+        <div class="back">
+            <a href="../index.html"><img src="../img/pink_arrows.png" alt=""></a>
+        </div>
+        
         <h2> HTML 05 </h2>
         <ul class="box01_ul">
       <li> <h3> <a href="05/01_css_syntax.html">My Style.css</a></h3></li>    
-      <li> <h3> <a href="05/01_css_syntax.html" target="_blank" > 01_css_syntax</a> </h3></li>
-      <li> <h3> <a href="05/02_inline_style.html" target="_blank" >02_inline_style</a> </h3></li>
-      <li> <h3> <a href="05/03_internal_style.html" target="_blank" >03_internal_style</a> </h3></li>
-      <li> <h3> <a href="05/04_external_style.html" target="_blank" >04_external_style</a> </h3></li>
-      <li> <h3> <a href="05/05_color.html" target="_blank" >05_color</a> </h3></li>
-      <li> <h3> <a href="05/06_text_align.html" target="_blank" >06_text_align</a> </h3></li>
-      <li> <h3> <a href="05/07_text_shadow.html" target="_blank" >07_text_shadow.html</a> </h3></li>
-      <li> <h3> <a href="05/08_font_family.html" target="_blank" >08_font_family.html</a> </h3></li>
-      <li> <h3> <a href="05/09_font_style.html" target="_blank" >09_font_style</a> </h3></li>
-      <li> <h3> <a href="05/10_css_link.html" target="_blank" >10_css_link</a> </h3></li>
-      <li> <h3> <a href="05/10-1_link.html" target="_blank" >10-1_link</a> </h3></li>
+      <li> <h3> <a href="05/01_css_syntax.html" target="_self" > 01_css_syntax</a> </h3></li>
+      <li> <h3> <a href="05/02_inline_style.html" target="_self" >02_inline_style</a> </h3></li>
+      <li> <h3> <a href="05/03_internal_style.html" target="_self" >03_internal_style</a> </h3></li>
+      <li> <h3> <a href="05/04_external_style.html" target="_self" >04_external_style</a> </h3></li>
+      <li> <h3> <a href="05/05_color.html" target="_self" >05_color</a> </h3></li>
+      <li> <h3> <a href="05/06_text_align.html" target="_self" >06_text_align</a> </h3></li>
+      <li> <h3> <a href="05/07_text_shadow.html" target="_self" >07_text_shadow.html</a> </h3></li>
+      <li> <h3> <a href="05/08_font_family.html" target="_self" >08_font_family.html</a> </h3></li>
+      <li> <h3> <a href="05/09_font_style.html" target="_self" >09_font_style</a> </h3></li>
+      <li> <h3> <a href="05/10_css_link.html" target="_self" >10_css_link</a> </h3></li>
+      <li> <h3> <a href="05/10-1_link.html" target="_self" >10-1_link</a> </h3></li>
       
 
       </ul>
