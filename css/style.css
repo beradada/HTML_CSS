@@ -2,7 +2,9 @@
 
 
   * {margin: 0; padding: 0; }
-  #wrapper {margin: 0 auto; width: 1200px; }
+  
+  
+  #wrapper {margin: 0 auto; width: 1200px;}
 
   header {height: 200px; padding-top: 100px;}
   
@@ -20,9 +22,9 @@
  
 
   #main { width:900px; height:auto; border: 1px solid gray;
-         margin: 0 auto; text-align: center; padding: 130px 30px ;}
-  #main .main_left {}
-  #main .main_right {height: 500px;}
+         margin: 0 auto; text-align: center; padding: 100px 30px ;}
+  #main .main_right {height: 500px; }
+
   #main .main_right ul {}
   #main .main_right ul li { text-align:center; border: 1px solid gray; width: 100px; height: 100px; 
                 list-style: none; display: inline-block; margin: 30px;}
@@ -30,7 +32,7 @@
   #main .main_right ul li a {color: #3a3a3a;}
   #main .main_right ul li a:hover  {color: blue; transition: 0.5s ;}
 
-  footer { border-top: 1px solid #3a3a3a; margin-top: 100px; height: 150px;}
+  footer { border-top: 1px solid #3a3a3a; margin-top: 100px; height: 70px;}
   footer .footer_txt {text-align: center; }
   footer .footer_txt ul {padding: 0; margin:30px auto;}
   footer .footer_txt ul li {text-align: left; display: inline-block; margin: 50px 100px;
