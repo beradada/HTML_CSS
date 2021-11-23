@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* 구글 웹폰트 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* CSS 초기화 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, code, del, em, img, ins, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tr, th, td, caption, tbody, tfoot, thead, article, aside, details, figcation, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; box-sizing: border-box;
+} 
+body { font-family: 'Montserrat',sans-serif; line-height: 1; }
+article, aside, details, figcaption, figure, footer, header, menu, nav, section { display: block; }
+nav ul, li { list-style: none; box-sizing: border-box; }
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; text-decoration: none; }
+img { vertical-align: top; }
+hr { display: block; height: 2px; border: 0; margin: 0; padding: 0; }
+input, textarea { width: 100%; margin: 0; padding: 0; border: 0; border-bottom: 1px solid #757575; color: #3f51b5; font-family: 'Montserrat'; font-size: 12px; vertical-align: top; border-radius: 0; box-sizing: content-box; appearance:none; }
+text-area-placeholder, input-placeholder { color: #3f5ab5; }
+
+/* 공통부분 */
+.clear::after, .container::after { content: ""; clear: both; display: block; }
+.blind {position: absolute; width: 0; height: 0; line-height: 0; text-indent: -9999em; overflow: hidden; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
