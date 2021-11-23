@@ -15,7 +15,7 @@
             list-style: none; display: inline-block; margin-right: 50px;}
   header ul li a { color: #3a3a3a; text-decoration:none; 
                     }
-  header ul li a:hover { transition: 0.5s; color: navy; border-bottom-color: navy; text-decoration:none; 
+  header ul li a:hover { transition: 0.8s; color: blue; border-bottom-color: blue; text-decoration:none; 
     }
  
 
@@ -27,7 +27,7 @@
   #main .main_right ul li {border: 1px solid gray; padding: 30px;
                 list-style: none; display: inline-block; margin: 30px;}
   #main .main_right ul li a {color: #3a3a3a;}
-  #main .main_right ul li a:hover  {color: navy; transition: 0.5s ;}
+  #main .main_right ul li a:hover  {color: blue; transition: 0.5s ;}
 
   footer { border-top: 1px solid #3a3a3a; margin-top: 100px; height: 150px;}
   footer .footer_txt {text-align: center; }
@@ -35,5 +35,6 @@
   footer .footer_txt ul li {text-align: left; display: inline-block; margin: 50px 100px;
                             }
   footer .footer_txt ul li a { color: #3a3a3a;}
+  footer .footer_txt ul li a:hover{ color: blue;}
   footer .footer_txt ul li img {width: 30px; height: 30px; text-align: center;}
 
