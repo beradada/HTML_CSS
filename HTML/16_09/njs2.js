@@ -1,0 +1,5 @@
+
+
+document.write("njs2.js");
+document.write("<div style='color:blue; font-size:20px;'> 외부 자바스크립트파일<div>");
+document.write("<script src = 'njs3.js'></script>");
