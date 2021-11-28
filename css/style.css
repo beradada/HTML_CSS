@@ -21,8 +21,9 @@
     }
  
 
-  #main { width:900px; height:auto; border: 1px solid gray;
-         margin: 0 auto; text-align: center; padding: 100px 30px ;}
+  #main { width:900px; height:680px; border: 1px solid gray;
+         margin: 0 auto; text-align: center; padding: 100px 30px ;
+          }
   #main .main_right {height: 500px; }
 
   #main .main_right ul {}
